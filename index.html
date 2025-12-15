@@ -419,37 +419,44 @@
 
   <!-- Case Study (sticky scroll + opacity transitions) -->
   <section id="case" class="py-20 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-4xl font-black mb-10">Case Study: Fintech Dashboard</h2>
-      <div class="grid md:grid-cols-2 gap-10 items-start">
-        <div class="space-y-6">
-          <!-- new js for colour change -->
-          <div class="rounded-2xl  glass-card hover:bg-purple-500 ring-1 ring-white/10 p-6 opacity-0 translate-y-4 case-step gradientBox ">
-            <h3 class="font-bold mb-2">Problem</h3>
-            <p class="text-slate-300">Users struggled to compare multi‑account performance quickly.</p>
-          </div>
-          <div class="rounded-2xl hover:bg-purple-500 glass-card ring-1 ring-white/10 p-6 opacity-0 translate-y-4 case-step gradientBox2">
-            <h3 class="font-bold mb-2">Approach</h3>
-            <p class="text-slate-300">Re‑structured IA, progressive disclosure, and motion to guide scanning.</p>
-          </div>
-          <div class="rounded-2xl hover:bg-purple-500 glass-card ring-1 ring-white/10 p-6 opacity-0 translate-y-4 case-step gradientBox">
-            <h3 class="font-bold mb-2">Outcome</h3>
-            <p class="text-slate-300">Time‑to‑insight reduced by 38%, higher engagement on key charts.</p>
-          </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-black mb-10 text-center md:text-left">Case Study: Fintech Dashboard</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+      <div class="space-y-6">
+        <!-- Problem -->
+        <div class="rounded-2xl glass-card hover:bg-purple-500 ring-1 ring-white/10 p-6 opacity-0 translate-y-4 case-step gradientBox">
+          <h3 class="font-bold mb-2">Problem</h3>
+          <p class="text-slate-300">Users struggled to compare multi‑account performance quickly.</p>
         </div>
-        <div class="sticky top-28">
-         <div class="rounded-2xl glass-card ring-1 ring-white/10 p-3 shadow-glow w-[500px] h-[350px] overflow-hidden">
-        <img
-          src="deshbord.png"
-          alt="Fintech Dashboard"
-          class="w-full h-full object-cover rounded-xl"
-        />
-       </div>
 
+        <!-- Approach -->
+        <div class="rounded-2xl glass-card hover:bg-purple-500 ring-1 ring-white/10 p-6 opacity-0 translate-y-4 case-step gradientBox2">
+          <h3 class="font-bold mb-2">Approach</h3>
+          <p class="text-slate-300">Re‑structured IA, progressive disclosure, and motion to guide scanning.</p>
+        </div>
+
+        <!-- Outcome -->
+        <div class="rounded-2xl glass-card hover:bg-purple-500 ring-1 ring-white/10 p-6 opacity-0 translate-y-4 case-step gradientBox">
+          <h3 class="font-bold mb-2">Outcome</h3>
+          <p class="text-slate-300">Time‑to‑insight reduced by 38%, higher engagement on key charts.</p>
+        </div>
+      </div>
+
+      <!-- Dashboard Image -->
+      <div class="md:sticky md:top-28 flex justify-center">
+        <div class="rounded-2xl glass-card ring-1 ring-white/10 p-3 shadow-glow w-full max-w-md h-64 sm:h-80 md:h-[350px] overflow-hidden">
+          <img
+            src="deshbord.png"
+            alt="Fintech Dashboard"
+            class="w-full h-full object-cover rounded-xl"
+          />
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Testimonials (auto slider) -->
   <section id="testimonials" class="py-20 relative">
@@ -726,5 +733,6 @@ setInterval(() => {
 }, 2500);
   </script>
 </body>
+
 
 </html>
